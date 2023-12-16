@@ -9,8 +9,8 @@ import (
 
 func main() {
 
-	// file, err := os.Open("example.txt")
-	file, err := os.Open("data.txt")
+	file, err := os.Open("example.txt")
+	// file, err := os.Open("../data.txt")
 	check(err)
 
 	var total int
