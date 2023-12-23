@@ -9,12 +9,6 @@ import (
 	"strings"
 )
 
-type Card struct {
-	id      uint
-	numbers []uint
-	winners []uint
-}
-
 func main() {
 	// file, err := os.Open("../example.txt")
 	file, err := os.Open("../data.txt")
