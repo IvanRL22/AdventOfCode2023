@@ -10,8 +10,20 @@ Created some structs to hold the ranges data and be able to compute the mappings
 ### Part 2
 Applied range concept for seeds and brute forced it  
 Would like to try and improve with a more efficient algowithm  
-## Day6
-### Part1
+## Day 6
+### Part 1
 The problem always will have a continuous range of solutions  
 Therefore it can be solved by, for each time and distance, looking for the lowest and highest winning times  
 After that, assume every time in between is also be a winner  
+### Part 2
+Read all numbers and join them to have the full time and distance  
+Just remove iteration through all races, since there's just one  
+Run the same logic just once  
+Profit  
+## Day 7
+### [Part 1](Day7\Part1\day7_1.go)
+This was supposed to be simple but turned ugly  
+Had to "brute-force" it by finding rank, value by cards and then ordering  
+Struggled with go orderings in general  
+Realized after many tries that the full/double pair detection logic was flawed
+It was screwing the ordering on *some* comparisons, so the example data *almost* always turned the right result, but not the real data
