@@ -34,3 +34,5 @@ Added (messed up) logic for calculating rank with jokers if needed
 ### [Part 1](Day8/Part1/day8_1.go)
 Read node info and convert to map  
 Iterate through instructions and navigate map accordingly until final node is found  
+### [Part 2](Day8/Part2/day8_2.go)
+Couldn't have solved this without hints, never would have realized that LCM was the way to go  

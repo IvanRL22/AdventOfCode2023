@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	// file, err := os.Open("../example.txt")
+	// file, err := os.Open("example.txt")
 	file, err := os.Open("../data.txt")
 	check(err, "Failed to read input file")
 
