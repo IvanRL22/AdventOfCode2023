@@ -21,9 +21,12 @@ Just remove iteration through all races, since there's just one
 Run the same logic just once  
 Profit  
 ## Day 7
-### [Part 1](Day7\Part1\day7_1.go)
+### [Part 1](Day7/Part1/day7_1.go)
 This was supposed to be simple but turned ugly  
 Had to "brute-force" it by finding rank, value by cards and then ordering  
 Struggled with go orderings in general  
 Realized after many tries that the full/double pair detection logic was flawed
 It was screwing the ordering on *some* comparisons, so the example data *almost* always turned the right result, but not the real data
+### [Part 2](Day7/Part2/day7_2.go)
+Changed J to have the less value when calculating by card
+Added (messed up) logic for calculating rank with jokers if needed
