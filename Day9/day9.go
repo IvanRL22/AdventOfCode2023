@@ -32,6 +32,8 @@ func part1(data []byte) {
 			currentNumbers[i] = n
 		}
 
+		// slices.Reverse(currentNumbers) // If you do this you immediatly solve part2 (facepalm)
+
 		endNumber := currentNumbers[len(currentNumbers)-1]
 
 		for slices.Max(currentNumbers) != 0 || slices.Min(currentNumbers) != 0 {
