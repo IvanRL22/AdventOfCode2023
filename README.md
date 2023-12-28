@@ -37,9 +37,9 @@ Iterate through instructions and navigate map accordingly until final node is fo
 ### [Part 2](Day8/Part2/day8_2.go)
 Couldn't have solved this without hints, never would have realized that LCM was the way to go  
 ## [Day 9](Day9/day9.go)
-### [Part 1]
+### Part 1
 Used straight-forward approach with one minor hack
 - Calculate each subsequent array but only store the last element (the only one we need)  
 - Sum all the calculated last elements plus the last element from original data to get final row result  
-### [Part 2]
-Same approach, just tweaked algorithm to use first element of arrays and tweaked calculations 
+### Part 2
+Same approach, just tweaked algorithm to use first element of arrays and tweaked calculations  
