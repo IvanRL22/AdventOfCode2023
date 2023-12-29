@@ -43,3 +43,15 @@ Used straight-forward approach with one minor hack
 - Sum all the calculated last elements plus the last element from original data to get final row result  
 ### Part 2
 Same approach, just tweaked algorithm to use first element of arrays and tweaked calculations  
+## Day 10
+## [Day 11](Day11/day11.go)
+Started meddling with testing instead of reading from test file
+### Part 1
+I realized there was a simpler way to calculate than actually expanding input:  
+- Save which rows/columns don't have galaxies  
+- Distance is just the difference in column position plus the difference in row position (see [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry))  
+- Then check if there are empty rows or columns in between and add 1 for each  
+### Part 2
+This was trivial due to the way part 1 was calculated:  
+- Just add 999.999 for every empty row/column  
+- The reason for 999.999 instead of 1M is that we had already counted each row/column inbetween galaxies once
