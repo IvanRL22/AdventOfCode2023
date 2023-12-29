@@ -54,4 +54,7 @@ I realized there was a simpler way to calculate than actually expanding input:
 ### Part 2
 This was trivial due to the way part 1 was calculated:  
 - Just add 999.999 for every empty row/column  
-- The reason for 999.999 instead of 1M is that we had already counted each row/column inbetween galaxies once
+- The reason for 999.999 instead of 1M is that we had already counted each row/column inbetween galaxies once  
+## Day 12
+### Part 1
+Brute force for the win  
